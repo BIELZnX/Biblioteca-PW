@@ -60,25 +60,4 @@
                 }
             }
             else
-            {
-                ?>
-                <div class="msg-erro">
-                     <?php echo "ERRO ".$u->msgErro; ?>
-                </div>
-                <?php
-            }
-        }
-        else
-        {
-            ?>
-            <div class="msg-erro">
-            Preencha todos os campos
-            </div>
-            <?php
-        }
-    }
-    ?>
-
-</body>
-
-</html>
+            
