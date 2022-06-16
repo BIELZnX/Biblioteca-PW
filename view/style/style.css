@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --dark-sky-blue: #74b3ceff;
+    --prussian-blue: #172a3aff;
+    --warm-black: #004346ff;
+    --mountain-meadow: #09bc8aff;
+    --white-color: #fff;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+    width: 700px;
+    height: 500px;
+    background-image: url("https://i.pinimg.com/736x/5c/b1/fa/5cb1fad6cee2df6780aa492b3d1144df.jpg");
+}
+
+/* MENU INICIAL */
+
+.menu {
+    width: 100%;
+    background-color: var(--mountain-meadow);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-itens {
+    transition: .3s;
+    border: none;
+    background-color: var(--mountain-meadow);
+    color: var(--white-color);
+    user-select: none;
+    padding: 15px;
+    margin-left: 20px;
+}
+
+.consulta-itens, .cadastro-itens {
+    user-select: none;
+    transition: .3s;
+}
+
+.menu-itens:hover {
+    background-color: var(--warm-black);
+}
+
